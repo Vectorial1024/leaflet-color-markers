@@ -1,0 +1,27 @@
+{
+  "name": "leaflet-color-markers",
+  "version": "1.1.0",
+  "description": "color variations of the standard leaflet marker",
+  "main": "js/leaflet-color-markers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickp-rthinfo/leaflet-color-markers.git"
+  },
+  "keywords": [
+    "Leaflet",
+    "Maps",
+    "Marker"
+  ],
+  "author": "Thomas Pointhuber",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/patrickp-rthinfo/leaflet-color-markers/issues"
+  },
+  "homepage": "https://github.com/patrickp-rthinfo/leaflet-color-markers#readme"
+}
