@@ -1,6 +1,6 @@
 {
   "name": "leaflet-color-markers",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "color variations of the standard leaflet marker (forked for npm enablement)",
   "main": "js/leaflet-color-markers.js",
   "scripts": {
