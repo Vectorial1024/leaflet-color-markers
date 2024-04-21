@@ -1,7 +1,7 @@
 leaflet-color-markers
 =====================
 
-The standard Leaflet marker, but in different color variations, for simple use cases.
+The standard Leaflet marker icon, but in different color variations, for simple use cases.
 
 This is a modernized fork of [patrickp-rthinfo/leaflet-color-markers](https://github.com/patrickp-rthinfo/leaflet-color-markers),
 which is in turn a fork of [pointhi/leaflet-color-markers](https://github.com/pointhi/leaflet-color-markers).
