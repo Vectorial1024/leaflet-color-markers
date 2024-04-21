@@ -4,6 +4,7 @@ var blueIcon = new L.Icon({
 	iconSize: [25, 41],
 	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
+	tooltipAnchor: [16, -28],
 	shadowSize: [41, 41]
 });
 
@@ -13,6 +14,7 @@ var goldIcon = new L.Icon({
 	iconSize: [25, 41],
 	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
+	tooltipAnchor: [16, -28],
 	shadowSize: [41, 41]
 });
 
@@ -22,6 +24,7 @@ var redIcon = new L.Icon({
 	iconSize: [25, 41],
 	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
+	tooltipAnchor: [16, -28],
 	shadowSize: [41, 41]
 });
 
@@ -31,6 +34,7 @@ var greenIcon = new L.Icon({
 	iconSize: [25, 41],
 	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
+	tooltipAnchor: [16, -28],
 	shadowSize: [41, 41]
 });
 
@@ -40,6 +44,7 @@ var orangeIcon = new L.Icon({
 	iconSize: [25, 41],
 	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
+	tooltipAnchor: [16, -28],
 	shadowSize: [41, 41]
 });
 
@@ -49,6 +54,7 @@ var yellowIcon = new L.Icon({
 	iconSize: [25, 41],
 	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
+	tooltipAnchor: [16, -28],
 	shadowSize: [41, 41]
 });
 
@@ -58,6 +64,7 @@ var violetIcon = new L.Icon({
 	iconSize: [25, 41],
 	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
+	tooltipAnchor: [16, -28],
 	shadowSize: [41, 41]
 });
 
@@ -67,6 +74,7 @@ var greyIcon = new L.Icon({
 	iconSize: [25, 41],
 	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
+	tooltipAnchor: [16, -28],
 	shadowSize: [41, 41]
 });
 
@@ -76,5 +84,6 @@ var blackIcon = new L.Icon({
 	iconSize: [25, 41],
 	iconAnchor: [12, 41],
 	popupAnchor: [1, -34],
+	tooltipAnchor: [16, -28],
 	shadowSize: [41, 41]
 });
