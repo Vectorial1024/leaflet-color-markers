@@ -3,6 +3,10 @@ leaflet-color-markers
 
 The standard Leaflet marker, but in different color variations, for simple use cases.
 
+This is a modernized fork of https://github.com/patrickp-rthinfo/leaflet-color-markers , which is in turn a fork of https://github.com/pointhi/leaflet-color-markers ; with this, the first commit to this project can be traced back to late 2013.
+
+---
+
 color variations of the standard leaflet markers:
 
 | Color | Marker 2x  | Marker  | Color Inside | Color Outside |
