@@ -3,7 +3,9 @@ leaflet-color-markers
 
 The standard Leaflet marker, but in different color variations, for simple use cases.
 
-This is a modernized fork of https://github.com/patrickp-rthinfo/leaflet-color-markers , which is in turn a fork of https://github.com/pointhi/leaflet-color-markers ; with this, the first commit to this project can be traced back to late 2013.
+This is a modernized fork of [patrickp-rthinfo/leaflet-color-markers](https://github.com/patrickp-rthinfo/leaflet-color-markers),
+which is in turn a fork of [pointhi/leaflet-color-markers](https://github.com/pointhi/leaflet-color-markers).
+With this, the first commit to this project can be traced back to late 2013.
 
 ---
 
