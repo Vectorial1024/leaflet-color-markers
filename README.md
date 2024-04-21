@@ -1,6 +1,8 @@
 leaflet-color-markers
 =====================
 
+The standard Leaflet marker, but in different color variations, for simple use cases.
+
 color variations of the standard leaflet markers:
 
 | Color | Marker 2x  | Marker  | Color Inside | Color Outside |
