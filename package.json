@@ -23,9 +23,5 @@
   "bugs": {
     "url": "https://github.com/patrickp-rthinfo/leaflet-color-markers/issues"
   },
-  "homepage": "https://github.com/patrickp-rthinfo/leaflet-color-markers#readme",
-  "devDependencies": {
-    "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4"
-  }
+  "homepage": "https://github.com/patrickp-rthinfo/leaflet-color-markers#readme"
 }
