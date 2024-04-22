@@ -2,7 +2,7 @@
   "name": "leaflet-color-markers",
   "version": "2.0.0",
   "description": "The standard Leaflet marker icon, but in different color variations, for simple use cases.",
-  "main": "js/leaflet-color-markers.js",
+  "main": "js/index.js",
   "scripts": {
     "test": "exit 0"
   },
