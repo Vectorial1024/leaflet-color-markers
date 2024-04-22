@@ -21,7 +21,7 @@ import { greenIcon } from /* this library */;
 // we assume the map is already defined
 const map = L.map('theMap');
 
-L.marker([51.5, -0.09], {icon: greenIcon}).addTo(map);
+L.marker([51.5, -0.09], { icon: greenIcon }).addTo(map);
 ```
 
 ## Colors
