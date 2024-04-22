@@ -10,3 +10,4 @@ Initial release at version `2.0.0`. (FAQ: why not version `1.0.0`? See #1)
 
 ### Changed
 - Removed support of bower.js (#1)
+- Properly support NodeJS (#2)
