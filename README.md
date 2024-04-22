@@ -1,11 +1,32 @@
-leaflet-color-markers
-=====================
+# leaflet-color-markers
 
-The standard Leaflet marker, but in different color variations, for simple use cases.
+The standard Leaflet marker icon, but in different color variations, for simple use cases.
 
 This is a modernized fork of [patrickp-rthinfo/leaflet-color-markers](https://github.com/patrickp-rthinfo/leaflet-color-markers),
 which is in turn a fork of [pointhi/leaflet-color-markers](https://github.com/pointhi/leaflet-color-markers).
 With this, the first commit to this project can be traced back to late 2013.
+
+## Install
+
+(WIP)
+
+## Example
+
+Add a simple marker using the green icon template to a Leaflet map: 
+
+```javascript
+// to be tested, but theoretically should work
+import { greenIcon } from /* this library */;
+
+// we assume the map is already defined
+const map = L.map('theMap');
+
+L.marker([51.5, -0.09], { icon: greenIcon }).addTo(map);
+```
+
+## Colors
+
+(WIP)
 
 ---
 
@@ -22,17 +43,3 @@ color variations of the standard leaflet markers:
 | Violet | ![Marker Violet 2x](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png) | ![Marker Violet](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png) | #9C2BCB | #742E98 |
 | Grey | ![Marker Grey 2x](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-grey.png) | ![Marker Grey](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-grey.png) | #7B7B7B | #6B6B6B |
 | Black | ![Marker Black 2x](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png) | ![Marker Black](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-black.png) | #3D3D3D | #313131 |
-
-### Usage
-```javascript
-var greenIcon = new L.Icon({
-  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
-  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41]
-});
-
-L.marker([51.5, -0.09], {icon: greenIcon}).addTo(map);
-```

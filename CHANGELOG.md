@@ -10,3 +10,4 @@ Initial release at version `2.0.0`. (FAQ: why not version `1.0.0`? See [#1](http
 
 ### Changed
 - Removed support for bower.js ([#1](https://github.com/Vectorial1024/leaflet-color-markers/issues/1))
+- Properly support NodeJS ([#2](https://github.com/Vectorial1024/leaflet-color-markers/issues/2))
