@@ -1,5 +1,4 @@
-leaflet-color-markers
-=====================
+# leaflet-color-markers
 
 The standard Leaflet marker icon, but in different color variations, for simple use cases.
 
@@ -7,11 +6,11 @@ This is a modernized fork of [patrickp-rthinfo/leaflet-color-markers](https://gi
 which is in turn a fork of [pointhi/leaflet-color-markers](https://github.com/pointhi/leaflet-color-markers).
 With this, the first commit to this project can be traced back to late 2013.
 
-# Install
+## Install
 
 (WIP)
 
-# Example Usage
+## Example Usage
 
 Add a simple marker using the green icon template to a Leaflet map: 
 
@@ -25,7 +24,7 @@ const map = L.map('theMap');
 L.marker([51.5, -0.09], {icon: greenIcon}).addTo(map);
 ```
 
-# Colors
+## Colors
 
 (WIP)
 
