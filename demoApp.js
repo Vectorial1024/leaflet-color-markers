@@ -1,18 +1,11 @@
 /*
 Reference: https://stackoverflow.com/questions/50132531/bundle-leaflet-for-use-in-browser
 
-As a demo, and to test this library really works, we have this webpage test directory.
-
-To build the bundle in case dist/bundle.js does not exist, run: 
-npm run build-test
-
-To view the final result, see:
-index.html
+As a demo, and to test this library really works, we have this demo webpage. More info in the README.
 */
 
 // require modules
 import * as L from 'leaflet/src/Leaflet';
-// const L = require('leaflet');
 // create map
 const map = L.map('map').setView([51.505, -0.09], 13);
 
@@ -27,13 +20,10 @@ L.tileLayer(osmTiles, {
 }).addTo(map);
 
 // load icon with our library
-import { blueIcon } from './js/leaflet-color-markers.js'; 
-// import * as LCM from './js/leaflet-color-markers.js';
-// const LCM = require('./js/leaflet-color-markers.js');
-// const blueIcon = LCM.blueIcon;
+import { greenIcon } from './js/index.js'; 
 
 // create and customize our marker
-const marker = L.marker([51.5, -0.09], { icon: blueIcon });
+const marker = L.marker([51.5, -0.09], { icon: greenIcon });
 marker.bindTooltip("Somewhere in London");
 // and then add it to the map
 marker.addTo(map);

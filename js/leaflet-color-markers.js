@@ -1,40 +1,11 @@
 import * as L from 'leaflet/src/Leaflet';
 
-// const L = require('leaflet');
-
 const iconSize = [25, 41];
 const iconAnchor = [12, 41];
 const popupAnchor = [1, -34];
 const tooltipAnchor = [16, -28];
 const shadowSize = [41, 41];
 
-export const blueIcon = new L.Icon({
-	iconUrl: 'img/marker-icon-blue.png',
-	iconRetinaUrl: 'img/marker-icon-2x-blue.png',
-	shadowUrl: 'img/marker-shadow.png',
-	iconSize: iconSize,
-	iconAnchor: iconAnchor,
-	popupAnchor: popupAnchor,
-	tooltipAnchor: tooltipAnchor,
-	shadowSize: shadowSize
-});
-
-/*
-module.exports = {
-	blueIcon: new L.Icon({
-		iconUrl: 'img/marker-icon-blue.png',
-		iconRetinaUrl: 'img/marker-icon-2x-blue.png',
-		shadowUrl: 'img/marker-shadow.png',
-		iconSize: iconSize,
-		iconAnchor: iconAnchor,
-		popupAnchor: popupAnchor,
-		tooltipAnchor: tooltipAnchor,
-		shadowSize: shadowSize
-	}),
-};
-*/
-
-/*
 export const blueIcon = new L.Icon({
 	iconUrl: 'img/marker-icon-blue.png',
 	iconRetinaUrl: 'img/marker-icon-2x-blue.png',
@@ -133,4 +104,3 @@ export const blackIcon = new L.Icon({
 	tooltipAnchor: tooltipAnchor,
 	shadowSize: shadowSize
 });
-*/

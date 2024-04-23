@@ -13632,15 +13632,13 @@
 	Map.Tap = Tap;
 	Map.TouchZoom = TouchZoom;
 
-	// const L = require('leaflet');
-
 	const iconSize = [25, 41];
 	const iconAnchor = [12, 41];
 	const popupAnchor = [1, -34];
 	const tooltipAnchor = [16, -28];
 	const shadowSize = [41, 41];
 
-	const blueIcon = new Icon({
+	new Icon({
 		iconUrl: 'img/marker-icon-blue.png',
 		iconRetinaUrl: 'img/marker-icon-2x-blue.png',
 		shadowUrl: 'img/marker-shadow.png',
@@ -13651,34 +13649,7 @@
 		shadowSize: shadowSize
 	});
 
-	/*
-	module.exports = {
-		blueIcon: new L.Icon({
-			iconUrl: 'img/marker-icon-blue.png',
-			iconRetinaUrl: 'img/marker-icon-2x-blue.png',
-			shadowUrl: 'img/marker-shadow.png',
-			iconSize: iconSize,
-			iconAnchor: iconAnchor,
-			popupAnchor: popupAnchor,
-			tooltipAnchor: tooltipAnchor,
-			shadowSize: shadowSize
-		}),
-	};
-	*/
-
-	/*
-	export const blueIcon = new L.Icon({
-		iconUrl: 'img/marker-icon-blue.png',
-		iconRetinaUrl: 'img/marker-icon-2x-blue.png',
-		shadowUrl: 'img/marker-shadow.png',
-		iconSize: iconSize,
-		iconAnchor: iconAnchor,
-		popupAnchor: popupAnchor,
-		tooltipAnchor: tooltipAnchor,
-		shadowSize: shadowSize
-	});
-
-	export const goldIcon = new L.Icon({
+	new Icon({
 		iconUrl: 'img/marker-icon-gold.png',
 		iconRetinaUrl: 'img/marker-icon-2x-gold.png',
 		shadowUrl: 'img/marker-shadow.png',
@@ -13689,7 +13660,7 @@
 		shadowSize: shadowSize
 	});
 
-	export const redIcon = new L.Icon({
+	new Icon({
 		iconUrl: 'img/marker-icon-red.png',
 		iconRetinaUrl: 'img/marker-icon-2x-red.png',
 		shadowUrl: 'img/marker-shadow.png',
@@ -13700,7 +13671,7 @@
 		shadowSize: shadowSize
 	});
 
-	export const greenIcon = new L.Icon({
+	const greenIcon = new Icon({
 		iconUrl: 'img/marker-icon-green.png',
 		iconRetinaUrl: 'img/marker-icon-2x-green.png',
 		shadowUrl: 'img/marker-shadow.png',
@@ -13711,7 +13682,7 @@
 		shadowSize: shadowSize
 	});
 
-	export const orangeIcon = new L.Icon({
+	new Icon({
 		iconUrl: 'img/marker-icon-orange.png',
 		iconRetinaUrl: 'img/marker-icon-2x-orange.png',
 		shadowUrl: 'img/marker-shadow.png',
@@ -13722,7 +13693,7 @@
 		shadowSize: shadowSize
 	});
 
-	export const yellowIcon = new L.Icon({
+	new Icon({
 		iconUrl: 'img/marker-icon-yellow.png',
 		iconRetinaUrl: 'img/marker-icon-2x-yellow.png',
 		shadowUrl: 'img/marker-shadow.png',
@@ -13733,7 +13704,7 @@
 		shadowSize: shadowSize
 	});
 
-	export const violetIcon = new L.Icon({
+	new Icon({
 		iconUrl: 'img/marker-icon-violet.png',
 		iconRetinaUrl: 'img/marker-icon-2x-violet.png',
 		shadowUrl: 'img/marker-shadow.png',
@@ -13744,7 +13715,7 @@
 		shadowSize: shadowSize
 	});
 
-	export const greyIcon = new L.Icon({
+	new Icon({
 		iconUrl: 'img/marker-icon-grey.png',
 		iconRetinaUrl: 'img/marker-icon-2x-grey.png',
 		shadowUrl: 'img/marker-shadow.png',
@@ -13755,7 +13726,7 @@
 		shadowSize: shadowSize
 	});
 
-	export const blackIcon = new L.Icon({
+	new Icon({
 		iconUrl: 'img/marker-icon-black.png',
 		iconRetinaUrl: 'img/marker-icon-2x-black.png',
 		shadowUrl: 'img/marker-shadow.png',
@@ -13765,7 +13736,6 @@
 		tooltipAnchor: tooltipAnchor,
 		shadowSize: shadowSize
 	});
-	*/
 
 	/*
 	Reference: https://stackoverflow.com/questions/50132531/bundle-leaflet-for-use-in-browser
@@ -13779,7 +13749,6 @@
 	index.html
 	*/
 
-	// const L = require('leaflet');
 	// create map
 	const map = createMap('map').setView([51.505, -0.09], 13);
 
@@ -13792,12 +13761,10 @@
 	    maxZoom: 18,
 	    attribution: attribution
 	}).addTo(map);
-	// import * as LCM from './js/leaflet-color-markers.js';
-	// const LCM = require('./js/leaflet-color-markers.js');
-	// const blueIcon = LCM.blueIcon;
 
 	// create and customize our marker
-	const marker = marker$1([51.5, -0.09], { icon: blueIcon });
+	console.log(greenIcon);
+	const marker = marker$1([51.5, -0.09], { icon: greenIcon });
 	marker.bindTooltip("Somewhere in London");
 	// and then add it to the map
 	marker.addTo(map);
