@@ -10,7 +10,7 @@ With this, the first commit to this project can be traced back to late 2013.
 
 (WIP)
 
-## Example
+## Example Code
 
 Add a simple marker using the green icon template to a Leaflet map: 
 
@@ -22,6 +22,16 @@ import { greenIcon } from /* this library */;
 const map = L.map('theMap');
 
 L.marker([51.5, -0.09], { icon: greenIcon }).addTo(map);
+```
+
+### What about `require()`?
+
+We recommend using the more modern ESM style (`import`) to handle dependencies, but if CJS (`require()`) is required, you can still do this:
+
+```javascript
+// require() also works, but we recommend using the import if possible
+const LCM = require(/* this library */);
+const greenIcon = LCM.greenIcon;
 ```
 
 ## Colors
