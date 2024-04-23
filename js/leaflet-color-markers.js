@@ -1,6 +1,4 @@
-import * as L from 'leaflet';
-
-import 'leaflet/dist/leaflet.css';
+import * as L from 'leaflet/src/Leaflet';
 
 const iconSize = [25, 41];
 const iconAnchor = [12, 41];

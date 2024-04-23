@@ -3,8 +3,10 @@
   "version": "2.0.0",
   "description": "The standard Leaflet marker icon, but in different color variations, for simple use cases.",
   "main": "js/index.js",
+  "type": "module",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "build-demo": "rollup --config rollup-demo.config.js"
   },
   "dependencies": {
     "leaflet": "^1.0.0"
@@ -23,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/patrickp-rthinfo/leaflet-color-markers/issues"
   },
-  "homepage": "https://github.com/patrickp-rthinfo/leaflet-color-markers#readme"
+  "homepage": "https://github.com/patrickp-rthinfo/leaflet-color-markers#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.16.3"
+  }
 }
