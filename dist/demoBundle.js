@@ -13640,7 +13640,7 @@
 	const tooltipAnchor = [16, -28];
 	const shadowSize = [41, 41];
 
-	const blueIcon$1 = new Icon({
+	const blueIcon = new Icon({
 		iconUrl: 'img/marker-icon-blue.png',
 		iconRetinaUrl: 'img/marker-icon-2x-blue.png',
 		shadowUrl: 'img/marker-shadow.png',
@@ -13792,8 +13792,9 @@
 	    maxZoom: 18,
 	    attribution: attribution
 	}).addTo(map);
+	// import * as LCM from './js/leaflet-color-markers.js';
 	// const LCM = require('./js/leaflet-color-markers.js');
-	const blueIcon = blueIcon$1;
+	// const blueIcon = LCM.blueIcon;
 
 	// create and customize our marker
 	const marker = marker$1([51.5, -0.09], { icon: blueIcon });

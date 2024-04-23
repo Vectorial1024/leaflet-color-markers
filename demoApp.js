@@ -27,9 +27,10 @@ L.tileLayer(osmTiles, {
 }).addTo(map);
 
 // load icon with our library
-import * as LCM from './js/leaflet-color-markers.js';
+import { blueIcon } from './js/leaflet-color-markers.js'; 
+// import * as LCM from './js/leaflet-color-markers.js';
 // const LCM = require('./js/leaflet-color-markers.js');
-const blueIcon = LCM.blueIcon;
+// const blueIcon = LCM.blueIcon;
 
 // create and customize our marker
 const marker = L.marker([51.5, -0.09], { icon: blueIcon });
