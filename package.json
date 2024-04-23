@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "exit 0",
-    "build-test": "rollup --config"
+    "build-demo": "rollup --config rollup-demo.config.js"
   },
   "dependencies": {
     "leaflet": "^1.0.0"
