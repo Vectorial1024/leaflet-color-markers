@@ -11,7 +11,8 @@ index.html
 */
 
 // require modules
-const L = require('leaflet');
+import * as L from 'leaflet/src/Leaflet';
+// const L = require('leaflet');
 // create map
 const map = L.map('map').setView([51.505, -0.09], 13);
 
@@ -26,7 +27,8 @@ L.tileLayer(osmTiles, {
 }).addTo(map);
 
 // load icon with our library
-const LCM = require('./js/leaflet-color-markers.js');
+import * as LCM from './js/leaflet-color-markers.js';
+// const LCM = require('./js/leaflet-color-markers.js');
 const blueIcon = LCM.blueIcon;
 
 // create and customize our marker
