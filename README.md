@@ -10,6 +10,15 @@ With this, the first commit to this project can be traced back to late 2013.
 
 (WIP)
 
+## Demo
+
+A demo is included in the same repo. You may build it with the following steps:
+
+1. Clone this repo
+2. `npm run build-demo`
+3. Open `demo.html` in your internet browser
+4. See a minimally usable Leaflet map with a colored marker in it
+
 ## Example Code
 
 Add a simple marker using the green icon template to a Leaflet map: 
