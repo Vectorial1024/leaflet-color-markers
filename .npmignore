@@ -1,0 +1,14 @@
+# npm dependencies
+node_modules/
+
+# source files, etc
+js/
+
+# git
+.github/
+
+# demo-only files
+demo.html
+demoApp.js
+rollup-demo.config.js
+dist/demoBundle.js
