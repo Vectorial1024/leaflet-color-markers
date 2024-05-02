@@ -6,6 +6,8 @@ This is a modernized fork of [patrickp-rthinfo/leaflet-color-markers](https://gi
 which is in turn a fork of [pointhi/leaflet-color-markers](https://github.com/pointhi/leaflet-color-markers).
 With this, the first commit to this project can be traced back to late 2013.
 
+Note that the Leaflet marker icon is [originally contributed to the Leaflet project](https://github.com/Leaflet/Leaflet/blob/main/src/images/marker.svg), and is not the work of this library. The work here is to make that marker icon available in more colors.
+
 ## Install
 
 (WIP)
