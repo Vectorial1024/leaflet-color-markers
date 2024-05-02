@@ -52,7 +52,7 @@ const greenIcon = LCM.greenIcon;
 ### Preset Colors
 
 | Color | Marker | Color Inside | Color Outside |
-| ------------- |:-------------:|:-----:|:-----:|:-----:|
+| ------------- |:-----:|:-----:|:-----:|
 | Blue | ![Marker Blue](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-blue.png) | #2A81CB | #3274A3 |
 | Gold | ![Marker Gold](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-gold.png) | #FFD326 | #C1A32D |
 | Red | ![Marker Red](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-red.png) | #CB2B3E | #982E40 |
