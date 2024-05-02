@@ -12,7 +12,9 @@ With this, the first commit to this project can be traced back to late 2013.
 
 ## Demo
 
-A demo is included in the same repo. You may build it with the following steps:
+A demo is included in the same repo. It showcases a simple Leaflet map with a colored marker from this package.
+
+You may try it locally with the following steps:
 
 1. Clone this repo
 2. `npm run build-demo`
