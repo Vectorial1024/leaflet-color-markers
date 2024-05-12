@@ -1,9 +1,10 @@
 # leaflet-color-markers
 
-![package license](https://img.shields.io/npm/l/%40vectorial1024%2Fleaflet-color-markers)
-![npm version](https://img.shields.io/npm/v/%40vectorial1024%2Fleaflet-color-markers)
-![npm downloads](https://img.shields.io/npm/dw/%40vectorial1024%2Fleaflet-color-markers)
-![github link](https://img.shields.io/badge/GitHub-repo-green?logo=github)
+[![package license](https://github.com/Vectorial1024/leaflet-color-markers/blob/master/LICENSE)](https://img.shields.io/npm/l/%40vectorial1024%2Fleaflet-color-markers)
+[![npm version](https://www.npmjs.com/package/@vectorial1024/leaflet-color-markers)](https://img.shields.io/npm/v/%40vectorial1024%2Fleaflet-color-markers)
+[![npm downloads](https://www.npmjs.com/package/@vectorial1024/leaflet-color-markers)](https://img.shields.io/npm/dw/%40vectorial1024%2Fleaflet-color-markers)
+[![github link](https://github.com/Vectorial1024/leaflet-color-markers)](https://img.shields.io/badge/GitHub-repo-green?logo=github)
+[![github stars]()](https://img.shields.io/github/stars/vectorial1024/leaflet-color-markers)
 
 The standard Leaflet marker icon, but in different color variations, for simple use cases.
 
