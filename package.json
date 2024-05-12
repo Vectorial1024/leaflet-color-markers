@@ -1,11 +1,12 @@
 {
-  "name": "leaflet-color-markers",
+  "name": "@vectorial1024/leaflet-color-markers",
   "version": "2.0.0",
   "description": "The standard Leaflet marker icon, but in different color variations, for simple use cases.",
-  "main": "js/index.js",
+  "main": "dist/bundle.js",
   "type": "module",
   "scripts": {
     "test": "exit 0",
+    "build": "rollup --config",
     "build-demo": "rollup --config rollup-demo.config.js"
   },
   "peerDependencies": {
@@ -13,19 +14,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patrickp-rthinfo/leaflet-color-markers.git"
+    "url": "git+https://github.com/Vectorial1024/leaflet-color-markers.git"
   },
   "keywords": [
-    "Leaflet",
-    "Maps",
-    "Marker"
+    "leaflet",
+    "maps",
+    "marker"
   ],
-  "author": "Thomas Pointhuber",
+  "author": "Vincent Wong",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/patrickp-rthinfo/leaflet-color-markers/issues"
+    "url": "https://github.com/Vectorial1024/leaflet-color-markers/issues"
   },
-  "homepage": "https://github.com/patrickp-rthinfo/leaflet-color-markers#readme",
+  "homepage": "https://github.com/Vectorial1024/leaflet-color-markers#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-json": "^6.1.0",
