@@ -1,6 +1,6 @@
 {
   "name": "@vectorial1024/leaflet-color-markers",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The standard Leaflet marker icon, but in different color variations, for simple use cases.",
   "main": "dist/bundle.js",
   "type": "module",
