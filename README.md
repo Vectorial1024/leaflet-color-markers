@@ -10,7 +10,15 @@ Note that the Leaflet marker icon is [originally contributed to the Leaflet proj
 
 ## Install
 
-(WIP)
+via NPM:
+
+```
+npm install @vectorial1024/leaflet-color-markers
+```
+
+### Special Notice
+
+This library is a successor of [leaflet-color-markers](https://www.npmjs.com/package/leaflet-color-markers). That NPM library, for the lack of better words, actually does nothing.
 
 ## Demo
 
@@ -28,8 +36,7 @@ You may try it locally with the following steps:
 Add a simple marker using the green icon template to a Leaflet map: 
 
 ```javascript
-// to be tested, but theoretically should work
-import { greenIcon } from /* this library */;
+import { greenIcon } from "@vectorial1024/leaflet-color-markers";
 
 // we assume the map is already defined
 const map = L.map('theMap');
@@ -43,7 +50,7 @@ We recommend using the more modern ESM style (`import`) to handle dependencies, 
 
 ```javascript
 // require() also works, but we recommend using the import if possible
-const LCM = require(/* this library */);
+const LCM = require("@vectorial1024/leaflet-color-markers");
 const greenIcon = LCM.greenIcon;
 ```
 
