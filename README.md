@@ -38,6 +38,8 @@ You may try it locally with the following steps:
 3. Open `demo.html` in your internet browser
 4. See a minimally usable Leaflet map with a colored marker in it
 
+![demo image](https://github.com/Vectorial1024/leaflet-color-markers/assets/17726797/1a542920-c29e-40d3-9e08-9b27c83da50b)
+
 ## Example Code
 
 Add a simple marker using the green icon template to a Leaflet map: 
