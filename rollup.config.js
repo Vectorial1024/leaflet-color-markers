@@ -11,8 +11,7 @@ export default {
 	output: [
 		{
 			file: 'dist/bundle.js',
-			format: 'umd',
-            name: "LeafletColorMarkers"
+			format: 'es',
 		}
 	],
     plugins: [
