@@ -54,7 +54,9 @@ L.marker([51.5, -0.09], { icon: greenIcon }).addTo(map);
 
 ### What about `require()`?
 
-We recommend using the more modern ESM style (`import`) to handle dependencies, but if CJS (`require()`) is required, you can still do this:
+**As of `3.0.0`, support for CJS (`require()`) has been removed.** We strongly recommend you migrate to use the standard ESM style (`import`, available since 2018) to handle dependencies.
+
+For `2.x`, if CJS (`require()`) is required, you can still do this:
 
 ```javascript
 // require() also works, but we recommend using the import if possible
