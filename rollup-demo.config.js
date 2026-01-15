@@ -12,6 +12,7 @@ export default {
 		{
 			file: 'dist/demoBundle.js',
 			format: 'es',
+            sourcemap: true,
 		}
 	],
     plugins: [
