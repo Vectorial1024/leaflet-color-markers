@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/Vectorial1024/leaflet-color-markers#readme",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^12.3.0",

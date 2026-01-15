@@ -5,6 +5,7 @@ note: "circular reference in leaflet" warning is harmless because that is how le
 import nodeResolve from "@rollup/plugin-node-resolve";
 import json from "@rollup/plugin-json";
 import typescript from "@rollup/plugin-typescript";
+import commonjs from "@rollup/plugin-commonjs";
 
 export default {
 	input: 'demoApp.js',
@@ -20,14 +21,6 @@ export default {
             // Leaflet 1 is constructed circularly, this is normal
             return;
         }
-        if (warning.code === 'MISSING_EXPORT') {
-            // Leaflet 1 works by doing `export.x = x`, this is normal
-            return;
-        }
-        if (warning.code === 'THIS_IS_UNDEFINED') {
-            // Leaflet 1 is not using legacy class syntax and therefore manually binds to `this`, this is normal
-            return;
-        }
         warn(warning);
     },
     plugins: [
@@ -39,5 +32,8 @@ export default {
         json(),
 
         typescript(),
+
+        // requried to correctly understand Leaflet legacy exporting/class syntax
+        commonjs(),
     ]
 };
