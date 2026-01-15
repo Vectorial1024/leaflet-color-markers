@@ -11,7 +11,7 @@ export default {
 	output: [
 		{
 			file: 'dist/demoBundle.js',
-			format: 'umd',
+			format: 'es',
 		}
 	],
     plugins: [
