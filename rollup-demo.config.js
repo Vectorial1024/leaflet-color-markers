@@ -4,6 +4,7 @@ note: "circular reference in leaflet" warning is harmless because that is how le
 
 import nodeResolve from "@rollup/plugin-node-resolve";
 import json from "@rollup/plugin-json";
+import typescript from "@rollup/plugin-typescript";
 
 export default {
 	input: 'demoApp.js',
@@ -20,5 +21,7 @@ export default {
         }),
 
         json(),
+
+        typescript(),
     ]
 };
