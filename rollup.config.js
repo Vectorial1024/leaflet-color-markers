@@ -7,13 +7,13 @@ import nodeResolve from "@rollup/plugin-node-resolve";
 import json from "@rollup/plugin-json";
 
 export default {
-	input: 'js/index.js',
-	output: [
-		{
-			file: 'dist/bundle.js',
-			format: 'es',
-		}
-	],
+    input: 'js/index.js',
+    output: [
+        {
+            file: 'dist/bundle.js',
+            format: 'es',
+        }
+    ],
     plugins: [
         nodeResolve({
             jsnext: true,
