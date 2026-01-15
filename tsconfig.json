@@ -16,7 +16,8 @@
     // and npm install -D @types/node
 
     // Other Outputs
-    "sourceMap": true,
+    // Remove the sourcemap flag so @rollup/plugin-typescript does not warn about sourcemaps
+    // "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
 
