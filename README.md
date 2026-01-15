@@ -5,7 +5,7 @@
 [![github link](https://img.shields.io/badge/GitHub-repo-green?logo=github)](https://github.com/Vectorial1024/leaflet-color-markers)
 [![github stars](https://img.shields.io/github/stars/vectorial1024/leaflet-color-markers)](https://github.com/Vectorial1024/leaflet-color-markers/stargazers)
 [![github forks](https://img.shields.io/github/forks/vectorial1024/leaflet-color-markers)](https://github.com/Vectorial1024/leaflet-color-markers/forks)
-![typescript](https://img.shields.io/badge/TypeScript-yes-blue?style=plastic&logo=typescript&logoColor=white)
+![typescript](https://img.shields.io/badge/TypeScript-yes-blue?logo=typescript&logoColor=white)
 
 The standard Leaflet marker icon, but in different color variations, for simple use cases.
 
