@@ -8,14 +8,14 @@ import typescript from "@rollup/plugin-typescript";
 import commonjs from "@rollup/plugin-commonjs";
 
 export default {
-	input: 'demoApp.js',
-	output: [
-		{
-			file: 'dist/demoBundle.js',
-			format: 'es',
+    input: 'demoApp.js',
+    output: [
+        {
+            file: 'dist/demoBundle.js',
+            format: 'es',
             sourcemap: true,
-		}
-	],
+        }
+    ],
     onwarn(warning, warn) {
         if (warning.code === 'CIRCULAR_DEPENDENCY') {
             // Leaflet 1 is constructed circularly, this is normal
