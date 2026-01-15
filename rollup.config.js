@@ -10,8 +10,9 @@ export default {
     input: 'js/index.js',
     output: [
         {
-            file: 'dist/bundle.js',
+            file: 'dist/index.js',
             format: 'es',
+            sourcemap: true,
         }
     ],
     plugins: [
