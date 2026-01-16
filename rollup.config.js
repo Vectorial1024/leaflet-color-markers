@@ -6,8 +6,10 @@ import nodeResolve from "@rollup/plugin-node-resolve";
 import json from "@rollup/plugin-json";
 import typescript from '@rollup/plugin-typescript';
 import commonjs from "@rollup/plugin-commonjs";
+import { dts } from "rollup-plugin-dts";
 
-export default {
+export default [{
+    // build the code bundle
     input: 'src/index.ts',
     output: [
         {
@@ -36,4 +38,16 @@ export default {
         // requried to correctly understand Leaflet legacy exporting/class syntax
         commonjs(),
     ]
-};
+}, {
+    // build the types bundle
+    input: "dist/index.d.ts",
+    output: [
+        {
+            file: "dist/types.d.ts",
+            format: "es",
+        }
+    ],
+    plugins: [
+        dts(),
+    ]
+}];
