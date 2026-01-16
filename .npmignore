@@ -3,6 +3,7 @@ node_modules/
 
 # source files, etc
 js/
+src/
 
 # git
 .github/

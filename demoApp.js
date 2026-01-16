@@ -20,7 +20,7 @@ L.tileLayer(osmTiles, {
 }).addTo(map);
 
 // load icon with our library
-import { greenIcon } from './js/index.js'; 
+import { greenIcon } from './src/index.js'; 
 
 // create and customize our marker
 const marker = L.marker([51.5, -0.09], { icon: greenIcon });

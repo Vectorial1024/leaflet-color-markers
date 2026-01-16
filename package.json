@@ -2,7 +2,8 @@
   "name": "@vectorial1024/leaflet-color-markers",
   "version": "3.0.0-alpha.1",
   "description": "The standard Leaflet marker icon, but in different color variations, for simple use cases.",
-  "main": "dist/bundle.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "test": "exit 0",
@@ -28,8 +29,15 @@
   },
   "homepage": "https://github.com/Vectorial1024/leaflet-color-markers#readme",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
-    "rollup": "^4.16.3"
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^25.0.8",
+    "rollup": "^4.16.3",
+    "rollup-plugin-dts": "^6.3.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3"
   }
 }
