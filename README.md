@@ -23,7 +23,7 @@ via NPM:
 npm install @vectorial1024/leaflet-color-markers
 ```
 
-✔️ TypeScript definitions available as of 3.0.0.
+✔️ TypeScript definitions available as of `3.0.0`.
 
 ### Special Notice
 
