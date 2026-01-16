@@ -23,6 +23,8 @@ via NPM:
 npm install @vectorial1024/leaflet-color-markers
 ```
 
+✔️ TypeScript definitions available as of 3.0.0.
+
 ### Special Notice
 
 This library is a successor of [leaflet-color-markers](https://www.npmjs.com/package/leaflet-color-markers). That NPM library, for the lack of better words, actually does nothing.
