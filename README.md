@@ -73,14 +73,19 @@ const greenIcon = LCM.greenIcon;
 
 ### Preset Colors
 
-| Color | Marker | Color Inside | Color Outside |
-| ------------- |:-----:|:-----:|:-----:|
-| Blue | ![Marker Blue](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-blue.png) | #2A81CB | #3274A3 |
-| Gold | ![Marker Gold](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-gold.png) | #FFD326 | #C1A32D |
-| Red | ![Marker Red](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-red.png) | #CB2B3E | #982E40 |
-| Green | ![Marker Green](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-green.png) | #2AAD27 | #31882A |
-| Orange | ![Marker Orange](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-orange.png) | #CB8427 | #98652E |
-| Yellow | ![Marker Yellow](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-yellow.png) | #CAC428 | #988F2E |
-| Violet | ![Marker Violet](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-violet.png) | #9C2BCB | #742E98 |
-| Grey | ![Marker Grey](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-grey.png) | #7B7B7B | #6B6B6B |
-| Black | ![Marker Black](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-black.png) | #3D3D3D | #313131 |
+The color table for `3.x`.
+
+Note that some preset colors are changed during the `2.x` to `3.x` upgrade.
+
+| Legacy Name | Current Name | Preview | Availability | Notes |
+|-------------|:------------:|:-------:|:------------:|:-----:|
+| N/A | `defaultIcon` | ![Default Marker](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-blue.png) | `3.0.0` | Default color of the Leaflet marker |
+| `blueIcon` | `blueIcon` | ![Marker Blue](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-blue.png) | `2.0.0` | - |
+| `goldIcon` | `goldIcon` | ![Marker Gold](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-gold.png) | `2.0.0` | - |
+| `redIcon` | `redIcon` | ![Marker Red](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-red.png) | `2.0.0` | - |
+| `greenIcon` | `greenIcon` | ![Marker Green](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-green.png) | `2.0.0` | - |
+| `orangeIcon` | `orangeIcon` | ![Marker Orange](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-orange.png) | `2.0.0` | - |
+| `yellowIcon` | `yellowIcon` | ![Marker Yellow](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-yellow.png) | `2.0.0` | - |
+| `violetIcon` | `violetIcon` | ![Marker Violet](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-violet.png) | `2.0.0` | - |
+| `greyIcon` | `greyIcon` | ![Marker Grey](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-grey.png) | `2.0.0` | - |
+| `blackIcon` | `blackIcon` | ![Marker Black](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-black.png) | `2.0.0` | - |
