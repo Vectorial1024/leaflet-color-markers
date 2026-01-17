@@ -3,3 +3,7 @@ node_modules/
 
 # bundle outputs, etc
 dist/
+
+# editors
+.idea/
+.vscode/
