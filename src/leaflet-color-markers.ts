@@ -2,7 +2,7 @@ import { makeColoredMarkerIcon, makeColoredMarkerSvgIcon } from './utils.js';
 
 export const defaultIcon = makeColoredMarkerSvgIcon();
 
-export const blueIcon = makeColoredMarkerIcon('img/marker-icon-blue.png', 'img/marker-icon-2x-blue.png');
+export const blueIcon = defaultIcon;
 
 export const goldIcon = makeColoredMarkerIcon('img/marker-icon-gold.png', 'img/marker-icon-2x-gold.png');
 
