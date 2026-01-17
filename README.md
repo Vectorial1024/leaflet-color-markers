@@ -29,7 +29,7 @@ npm install @vectorial1024/leaflet-color-markers
 
 ### Special Notice
 
-This library is a successor of [leaflet-color-markers](https://www.npmjs.com/package/leaflet-color-markers). That NPM library, for the lack of better words, actually does nothing.
+This library is a successor of [leaflet-color-markers](https://www.npmjs.com/package/leaflet-color-markers). In particular, this library supports modern NodeJS `import` syntax, which is not supported by that library.
 
 ## Demo
 
