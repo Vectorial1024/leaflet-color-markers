@@ -78,7 +78,7 @@ The color table for `3.x`.
 Note that some preset colors are changed during the `2.x` to `3.x` upgrade.
 
 | Legacy Name | Current Name | Preview | Availability | Notes |
-|-------------|:------------:|:-------:|:------------:|:-----:|
+|:-----------:|:------------:|:-------:|:------------:|:-----:|
 | N/A | `defaultIcon` | ![Default Marker](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-blue.png) | `3.0.0` | Default color of the Leaflet marker |
 | `blueIcon` | `blueIcon` | ![Marker Blue](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-blue.png) | `2.0.0` | - |
 | `goldIcon` | `goldIcon` | ![Marker Gold](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-gold.png) | `2.0.0` | - |
