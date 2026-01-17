@@ -10,7 +10,7 @@ export function makeColoredMarkerIcon(iconUrl: string, iconRetinaUrl: string) {
     return new L.Icon({
         iconUrl: iconUrl,
         iconRetinaUrl: iconRetinaUrl,
-        shadowUrl: 'img/marker-shadow.png',
+        shadowUrl: 'img/marker-shadow.svg',
         iconSize: iconSize,
         iconAnchor: iconAnchor,
         popupAnchor: popupAnchor,
