@@ -79,8 +79,8 @@ Note that some preset colors are changed during the `2.x` to `3.x` upgrade.
 
 | Legacy Name | Current Name | Preview | Availability | Notes |
 |:-----------:|:------------:|:-------:|:------------:|:-----:|
-| N/A | `defaultIcon` | <img src="img/marker-icon.svg" alt="Default Marker" height="50" /> | `3.0.0` | Default color of the Leaflet marker |
-| `blueIcon` | `blueIcon` | <img src="img/marker-icon.svg" alt="Blue Marker" height="50" /> | `2.0.0` | - |
+| N/A | `defaultIcon` | <img src="img/marker-icon.svg" alt="Default Marker" height="40" /> | `3.0.0` | Default color of the Leaflet marker |
+| `blueIcon` | `blueIcon` | <img src="img/marker-icon.svg" alt="Blue Marker" height="40" /> | `2.0.0` | - |
 | `goldIcon` | `goldIcon` | ![Marker Gold](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-gold.png) | `2.0.0` | - |
 | `redIcon` | `redIcon` | ![Marker Red](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-red.png) | `2.0.0` | - |
 | `greenIcon` | `greenIcon` | ![Marker Green](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-green.png) | `2.0.0` | - |
