@@ -1,4 +1,6 @@
-import { makeColoredMarkerIcon } from './utils.js';
+import { makeColoredMarkerIcon, makeColoredMarkerSvgIcon } from './utils.js';
+
+export const defaultIcon = makeColoredMarkerSvgIcon();
 
 export const blueIcon = makeColoredMarkerIcon('img/marker-icon-blue.png', 'img/marker-icon-2x-blue.png');
 

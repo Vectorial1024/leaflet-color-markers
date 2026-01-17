@@ -18,3 +18,16 @@ export function makeColoredMarkerIcon(iconUrl: string, iconRetinaUrl: string) {
         shadowSize: shadowSize
     });
 }
+
+export function makeColoredMarkerSvgIcon() {
+    return new L.Icon({
+        iconUrl: 'img/marker-icon.svg',
+        // with svg as the icon, no particular need to specify retina url
+        shadowUrl: 'img/marker-shadow.svg',
+        iconSize: iconSize,
+        iconAnchor: iconAnchor,
+        popupAnchor: popupAnchor,
+        tooltipAnchor: tooltipAnchor,
+        shadowSize: shadowSize
+    });
+}
