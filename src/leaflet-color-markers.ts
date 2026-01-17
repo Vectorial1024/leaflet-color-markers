@@ -16,6 +16,16 @@ export const yellowIcon = makeColoredMarkerIcon('img/marker-icon-yellow.png', 'i
 
 export const violetIcon = makeColoredMarkerIcon('img/marker-icon-violet.png', 'img/marker-icon-2x-violet.png');
 
-export const greyIcon = makeColoredMarkerIcon('img/marker-icon-grey.png', 'img/marker-icon-2x-grey.png');
+/*
+Greyscale icons
+*/
 
-export const blackIcon = makeColoredMarkerIcon('img/marker-icon-black.png', 'img/marker-icon-2x-black.png');
+export const whiteIcon = makeColoredMarkerIcon('img/marker-icon-white.svg', 'img/marker-icon-white.svg');
+
+export const lightGreyIcon = makeColoredMarkerIcon('img/marker-icon-light-grey.svg', 'img/marker-icon-light-grey.svg');
+
+export const greyIcon = makeColoredMarkerIcon('img/marker-icon-grey.svg', 'img/marker-icon-grey.svg');
+
+export const darkGreyIcon = makeColoredMarkerIcon('img/marker-icon-dark-grey.svg', 'img/marker-icon-dark-grey.svg');
+
+export const blackIcon = makeColoredMarkerIcon('img/marker-icon-black.svg', 'img/marker-icon-black.svg');

@@ -75,7 +75,7 @@ const greenIcon = LCM.greenIcon;
 
 The color table for `3.x`.
 
-Note that some preset colors are changed during the `2.x` to `3.x` upgrade.
+Note that some preset color names are changed during the `2.x` to `3.x` upgrade.
 
 | Legacy Name | Current Name | Preview | Availability | Notes |
 |:-----------:|:------------:|:-------:|:------------:|-------|
@@ -87,5 +87,8 @@ Note that some preset colors are changed during the `2.x` to `3.x` upgrade.
 | `orangeIcon` | `orangeIcon` | ![Marker Orange](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-orange.png) | `2.0.0` | - |
 | `yellowIcon` | `yellowIcon` | ![Marker Yellow](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-yellow.png) | `2.0.0` | - |
 | `violetIcon` | `violetIcon` | ![Marker Violet](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-violet.png) | `2.0.0` | - |
-| `greyIcon` | `greyIcon` | ![Marker Grey](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-grey.png) | `2.0.0` | - |
-| `blackIcon` | `blackIcon` | ![Marker Black](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-black.png) | `2.0.0` | - |
+| N/A | `whiteIcon` | <img src="img/marker-icon-white.svg" alt="White Marker" height="40" /> | `2.0.0` | - |
+| N/A | `lightGreyIcon` | <img src="img/marker-icon-light-grey.svg" alt="Light Grey Marker" height="40" /> | `2.0.0` | - |
+| `greyIcon` | `greyIcon` | <img src="img/marker-icon-grey.svg" alt="Grey Marker" height="40" /> | `2.0.0` | - |
+| `blackIcon` | `darkGreyIcon` | <img src="img/marker-icon-dark-grey.svg" alt="Dark Grey Marker" height="40" /> | `2.0.0` | Not actually black; could be darker |
+| N/A | `blackIcon` | <img src="img/marker-icon-black.svg" alt="Black Marker" height="40" /> | `2.0.0` | - |
