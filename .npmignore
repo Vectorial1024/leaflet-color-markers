@@ -4,6 +4,7 @@ node_modules/
 # source files, etc
 js/
 src/
+tsconfig.json
 
 # git
 .github/
