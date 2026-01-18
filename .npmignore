@@ -5,6 +5,8 @@ node_modules/
 js/
 src/
 tsconfig.json
+*.d.ts
+!types.d.ts
 
 # git
 .github/
