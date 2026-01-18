@@ -91,7 +91,7 @@ Note that some preset color names are reassigned during the `2.x` to `3.x` upgra
 | N/A | `turquoiseIcon` | <img src="img/marker-icon-turquoise.svg" alt="Turquoise Marker" height="40" /> | `3.0.0` | - |
 | N/A | `cyanIcon` | <img src="img/marker-icon-cyan.svg" alt="Cyan Marker" height="40" /> | `3.0.0` | - |
 | `blueIcon` | `blueIcon` | <img src="img/marker-icon.svg" alt="Blue Marker" height="40" /> | `2.0.0` | - |
-| N/A | `navyIcon` | <img src="img/marker-icon-navy.svg" alt="Navy Marker" height="40" /> | `3.0.0` | - |
+| N/A | `ultramarineIcon` | <img src="img/marker-icon-ultramarine.svg" alt="Ultramarine Marker" height="40" /> | `3.0.0` | - |
 | N/A | `royalIcon` | <img src="img/marker-icon-royal.svg" alt="Royal Marker" height="40" /> | `3.0.0` | - |
 | `violetIcon` | `violetIcon` | <img src="img/marker-icon-violet.svg" alt="Violet Marker" height="40" /> | `2.0.0` | - |
 | N/A | `whiteIcon` | <img src="img/marker-icon-white.svg" alt="White Marker" height="40" /> | `3.0.0` | - |

@@ -39,7 +39,7 @@ export const cyanIcon = makeColoredMarkerIcon('img/marker-icon-cyan.svg', 'img/m
 
 export const blueIcon = defaultIcon;
 
-export const navyIcon = makeColoredMarkerIcon('img/marker-icon-navy.svg', 'img/marker-icon-navy.svg');
+export const ultramarineIcon = makeColoredMarkerIcon('img/marker-icon-ultramarine.svg', 'img/marker-icon-ultramarine.svg');
 
 export const royalIcon = makeColoredMarkerIcon('img/marker-icon-royal.svg', 'img/marker-icon-royal.svg');
 
