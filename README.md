@@ -77,7 +77,7 @@ The color table for `3.x`.
 
 Note that some preset color names are reassigned during the `2.x` to `3.x` upgrade.
 
-| Legacy Name | Current Name | Preview | Availability | Notes |
+| Legacy Name | Current Name | Preview | Color Availability | Notes |
 |:-----------:|:------------:|:-------:|:------------:|-------|
 | N/A | `defaultIcon` | <img src="img/marker-icon.svg" alt="Default Marker" height="40" /> | `3.0.0` | Default color of the Leaflet marker |
 | N/A | `pinkIcon` | <img src="img/marker-icon-pink.svg" alt="Pink Marker" height="40" /> | `3.0.0` | - |
@@ -89,8 +89,8 @@ Note that some preset color names are reassigned during the `2.x` to `3.x` upgra
 | `greenIcon` | `greenIcon` | ![Marker Green](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-green.png) | `2.0.0` | - |
 | `yellowIcon` | `yellowIcon` | ![Marker Yellow](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-yellow.png) | `2.0.0` | - |
 | `violetIcon` | `violetIcon` | ![Marker Violet](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-violet.png) | `2.0.0` | - |
-| N/A | `whiteIcon` | <img src="img/marker-icon-white.svg" alt="White Marker" height="40" /> | `2.0.0` | - |
-| N/A | `lightGreyIcon` | <img src="img/marker-icon-light-grey.svg" alt="Light Grey Marker" height="40" /> | `2.0.0` | - |
+| N/A | `whiteIcon` | <img src="img/marker-icon-white.svg" alt="White Marker" height="40" /> | `3.0.0` | - |
+| N/A | `lightGreyIcon` | <img src="img/marker-icon-light-grey.svg" alt="Light Grey Marker" height="40" /> | `3.0.0` | - |
 | `greyIcon` | `greyIcon` | <img src="img/marker-icon-grey.svg" alt="Grey Marker" height="40" /> | `2.0.0` | - |
 | `blackIcon` | `darkGreyIcon` | <img src="img/marker-icon-dark-grey.svg" alt="Dark Grey Marker" height="40" /> | `2.0.0` | **Reassigned** because not actually black |
-| N/A | `blackIcon` | <img src="img/marker-icon-black.svg" alt="Black Marker" height="40" /> | `2.0.0` | **Reassigned** to correct color |
+| N/A | `blackIcon` | <img src="img/marker-icon-black.svg" alt="Black Marker" height="40" /> | `3.0.0` | **Reassigned** to correct color |
