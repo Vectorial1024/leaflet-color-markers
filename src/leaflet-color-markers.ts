@@ -58,3 +58,40 @@ export const greyIcon = makeColoredMarkerIcon('img/marker-icon-grey.svg', 'img/m
 export const darkGreyIcon = makeColoredMarkerIcon('img/marker-icon-dark-grey.svg', 'img/marker-icon-dark-grey.svg');
 
 export const blackIcon = makeColoredMarkerIcon('img/marker-icon-black.svg', 'img/marker-icon-black.svg');
+
+/*
+Util/Data functions
+*/
+
+/**
+ * Returns an object that represents the collection of preset colored icons provided by this library,
+ * manually sorted by their hues starting from pink.
+ * 
+ * Note: this does not include the `defaultIcon`, but does include the `blueIcon`.
+ * 
+ * Hint: this may be used to randomly pick a colored icon.
+ * @returns The colored icons in "icon name -> icon instance" form.
+ */
+export function getAllPresetColoredIcons()
+{
+    return {
+        pinkIcon: pinkIcon,
+        redIcon: redIcon,
+        copperIcon: copperIcon,
+        orangeIcon: orangeIcon,
+        yellowIcon: yellowIcon,
+        limeIcon: limeIcon,
+        greenIcon: greenIcon,
+        turquoiseIcon: turquoiseIcon,
+        cyanIcon: cyanIcon,
+        blueIcon: blueIcon,
+        ultramarineIcon: ultramarineIcon,
+        royalIcon: royalIcon,
+        violetIcon: violetIcon,
+        whiteIcon: whiteIcon,
+        lightGreyIcon: lightGreyIcon,
+        greyIcon: greyIcon,
+        darkGreyIcon: darkGreyIcon,
+        blackIcon: blackIcon,
+    }
+}
