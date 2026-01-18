@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Dev (WIP)
 
+## 3.0.0 (2026-01-18)
+
+A major update.
+
 - Added TypeScript support ([#11](https://github.com/Vectorial1024/leaflet-color-markers/issues/11))
 - Graphics overhaul ([#18](https://github.com/Vectorial1024/leaflet-color-markers/pull/18)), containing the following:
   - Replaced PNG icons with SVG icons for HD rendering
