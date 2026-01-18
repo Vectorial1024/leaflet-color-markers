@@ -20,7 +20,9 @@
   "keywords": [
     "leaflet",
     "maps",
-    "marker"
+    "marker",
+    "marker-icon",
+    "colored-marker"
   ],
   "author": "Vincent Wong",
   "license": "BSD-2-Clause",

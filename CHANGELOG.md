@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Dev (WIP)
 
+- Graphics overhaul ([#18](https://github.com/Vectorial1024/leaflet-color-markers/pull/18)), containing the following:
+  - Replaced PNG icons with SVG icons for HD rendering
+  - Reorganized pre-existing 9 colors to become 18 colors ([#3](https://github.com/Vectorial1024/leaflet-color-markers/issues/3))
 - Removed support for CJS (`require()`) ([#12](https://github.com/Vectorial1024/leaflet-color-markers/issues/12))
 
 ## 2.0.0 to 2.0.4 (2024-05-12)

@@ -14,3 +14,7 @@ demoApp.js
 rollup-demo.config.js
 dist/demoBundle.js
 dist/demoBundle.js.map
+
+# editors
+.idea/
+.vscode/
