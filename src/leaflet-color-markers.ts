@@ -2,10 +2,6 @@ import { makeColoredMarkerIcon, makeColoredMarkerSvgIcon } from './utils.js';
 
 export const defaultIcon = makeColoredMarkerSvgIcon();
 
-export const blueIcon = defaultIcon;
-
-export const violetIcon = makeColoredMarkerIcon('img/marker-icon-violet.png', 'img/marker-icon-2x-violet.png');
-
 /*
 Red spectrum icons
 */
@@ -34,6 +30,20 @@ export const limeIcon = makeColoredMarkerIcon('img/marker-icon-lime.svg', 'img/m
 export const greenIcon = makeColoredMarkerIcon('img/marker-icon-green.svg', 'img/marker-icon-green.svg');
 
 export const turquoiseIcon = makeColoredMarkerIcon('img/marker-icon-turquoise.svg', 'img/marker-icon-turquoise.svg');
+
+/*
+Blue spectrum icons
+*/
+
+export const cyanIcon = makeColoredMarkerIcon('img/marker-icon-cyan.svg', 'img/marker-icon-cyan.svg');
+
+export const blueIcon = defaultIcon;
+
+export const navyIcon = makeColoredMarkerIcon('img/marker-icon-navy.svg', 'img/marker-icon-navy.svg');
+
+export const royalIcon = makeColoredMarkerIcon('img/marker-icon-royal.svg', 'img/marker-icon-royal.svg');
+
+export const violetIcon = makeColoredMarkerIcon('img/marker-icon-violet.svg', 'img/marker-icon-violet.svg');
 
 /*
 Greyscale icons
