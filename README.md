@@ -33,16 +33,16 @@ This library is a successor of [leaflet-color-markers](https://www.npmjs.com/pac
 
 ## Demo
 
-A demo is included in the same repo. It showcases a simple Leaflet map with a colored marker from this package.
+A demo is included in the same repo. It showcases a simple Leaflet map with colored markers from this package.
 
 You may try it locally with the following steps:
 
 1. Clone this repo
 2. `npm run build-demo`
 3. Open `demo.html` in your internet browser
-4. See a minimally usable Leaflet map with a colored marker in it
+4. See a minimally usable Leaflet map with a ring of colored markers in it
 
-![demo image](https://github.com/Vectorial1024/leaflet-color-markers/assets/17726797/1a542920-c29e-40d3-9e08-9b27c83da50b)
+![demo image](https://github.com/user-attachments/assets/3685bfca-6caf-4cdc-b0cc-5d6e80ca07c6)
 
 ## Example Code
 
