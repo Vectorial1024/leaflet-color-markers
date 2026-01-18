@@ -83,14 +83,16 @@ Note that some preset color names are reassigned during the `2.x` to `3.x` upgra
 | N/A | `pinkIcon` | <img src="img/marker-icon-pink.svg" alt="Pink Marker" height="40" /> | `3.0.0` | - |
 | `redIcon` | `redIcon` | <img src="img/marker-icon-red.svg" alt="Red Marker" height="40" /> | `2.0.0` | - |
 | `orangeIcon` | `copperIcon` | <img src="img/marker-icon-copper.svg" alt="Copper Marker" height="40" /> | `2.0.0` | **Reassigned** because not actually orange |
-| N/A | `orangeIcon` | <img src="img/marker-icon-orange.svg" alt="Orange Marker" height="40" /> | `3.0.0` | **Reassigned** to correct color |
+| N/A | `orangeIcon` | <img src="img/marker-icon-orange.svg" alt="Orange Marker" height="40" /> | `3.0.0` | **Recolored** for color accuracy |
+| `goldIcon` | N/A | N/A | **Deprecated** | Ambiguous color; use `yellowIcon` instead |
+| `yellowIcon` | `yellowIcon` | <img src="img/marker-icon-yellow.svg" alt="Yellow Marker" height="40" /> | `2.0.0` | **Recolored** for color accuracy |
+| N/A | `limeIcon` | <img src="img/marker-icon-lime.svg" alt="Lime Marker" height="40" /> | `3.0.0` | - |
+| `greenIcon` | `greenIcon` | <img src="img/marker-icon-green.svg" alt="Green Marker" height="40" /> | `2.0.0` | - |
+| N/A | `turquoiseIcon` | <img src="img/marker-icon-turquoise.svg" alt="Turquoise Marker" height="40" /> | `3.0.0` | - |
 | `blueIcon` | `blueIcon` | <img src="img/marker-icon.svg" alt="Blue Marker" height="40" /> | `2.0.0` | - |
-| `goldIcon` | `goldIcon` | ![Marker Gold](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-gold.png) | `2.0.0` | - |
-| `greenIcon` | `greenIcon` | ![Marker Green](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-green.png) | `2.0.0` | - |
-| `yellowIcon` | `yellowIcon` | ![Marker Yellow](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-yellow.png) | `2.0.0` | - |
 | `violetIcon` | `violetIcon` | ![Marker Violet](https://raw.githubusercontent.com/Vectorial1024/leaflet-color-markers/master/img/marker-icon-violet.png) | `2.0.0` | - |
 | N/A | `whiteIcon` | <img src="img/marker-icon-white.svg" alt="White Marker" height="40" /> | `3.0.0` | - |
 | N/A | `lightGreyIcon` | <img src="img/marker-icon-light-grey.svg" alt="Light Grey Marker" height="40" /> | `3.0.0` | - |
 | `greyIcon` | `greyIcon` | <img src="img/marker-icon-grey.svg" alt="Grey Marker" height="40" /> | `2.0.0` | - |
 | `blackIcon` | `darkGreyIcon` | <img src="img/marker-icon-dark-grey.svg" alt="Dark Grey Marker" height="40" /> | `2.0.0` | **Reassigned** because not actually black |
-| N/A | `blackIcon` | <img src="img/marker-icon-black.svg" alt="Black Marker" height="40" /> | `3.0.0` | **Reassigned** to correct color |
+| N/A | `blackIcon` | <img src="img/marker-icon-black.svg" alt="Black Marker" height="40" /> | `3.0.0` | **Recolored** for color accuracy |
