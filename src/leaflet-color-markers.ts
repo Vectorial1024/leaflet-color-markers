@@ -6,15 +6,23 @@ export const blueIcon = defaultIcon;
 
 export const goldIcon = makeColoredMarkerIcon('img/marker-icon-gold.png', 'img/marker-icon-2x-gold.png');
 
-export const redIcon = makeColoredMarkerIcon('img/marker-icon-red.png', 'img/marker-icon-2x-red.png');
-
 export const greenIcon = makeColoredMarkerIcon('img/marker-icon-green.png', 'img/marker-icon-2x-green.png');
-
-export const orangeIcon = makeColoredMarkerIcon('img/marker-icon-orange.png', 'img/marker-icon-2x-orange.png');
 
 export const yellowIcon = makeColoredMarkerIcon('img/marker-icon-yellow.png', 'img/marker-icon-2x-yellow.png');
 
 export const violetIcon = makeColoredMarkerIcon('img/marker-icon-violet.png', 'img/marker-icon-2x-violet.png');
+
+/*
+Red spectrum icons
+*/
+
+export const pinkIcon = makeColoredMarkerIcon('img/marker-icon-pink.svg', 'img/marker-icon-pink.svg');
+
+export const redIcon = makeColoredMarkerIcon('img/marker-icon-red.svg', 'img/marker-icon-red.svg');
+
+export const copperIcon = makeColoredMarkerIcon('img/marker-icon-copper.svg', 'img/marker-icon-copper.svg');
+
+export const orangeIcon = makeColoredMarkerIcon('img/marker-icon-orange.svg', 'img/marker-icon-orange.svg');
 
 /*
 Greyscale icons
