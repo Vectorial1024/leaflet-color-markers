@@ -6,11 +6,14 @@ const popupAnchor = [1, -34] as L.PointTuple;
 const tooltipAnchor = [16, -28] as L.PointTuple;
 const shadowSize = [41, 41] as L.PointTuple;
 
+import iconSvg from '../img/marker-shadow.svg';
+import shadowSvg from '../img/marker-shadow.svg';
+
 export function makeColoredMarkerIcon(iconUrl: string, iconRetinaUrl: string) {
     return new L.Icon({
         iconUrl: iconUrl,
         iconRetinaUrl: iconRetinaUrl,
-        shadowUrl: 'img/marker-shadow.svg',
+        shadowUrl: shadowSvg,
         iconSize: iconSize,
         iconAnchor: iconAnchor,
         popupAnchor: popupAnchor,
@@ -21,9 +24,9 @@ export function makeColoredMarkerIcon(iconUrl: string, iconRetinaUrl: string) {
 
 export function makeColoredMarkerSvgIcon() {
     return new L.Icon({
-        iconUrl: 'img/marker-icon.svg',
+        iconUrl: iconSvg,
         // with svg as the icon, no particular need to specify retina url
-        shadowUrl: 'img/marker-shadow.svg',
+        shadowUrl: shadowSvg,
         iconSize: iconSize,
         iconAnchor: iconAnchor,
         popupAnchor: popupAnchor,

@@ -6,58 +6,75 @@ export const defaultIcon = makeColoredMarkerSvgIcon();
 Red spectrum icons
 */
 
-export const pinkIcon = makeColoredMarkerIcon('img/marker-icon-pink.svg', 'img/marker-icon-pink.svg');
+import pinkSvg from '../img/marker-icon-pink.svg';
+export const pinkIcon = makeColoredMarkerIcon(pinkSvg, pinkSvg);
 
-export const redIcon = makeColoredMarkerIcon('img/marker-icon-red.svg', 'img/marker-icon-red.svg');
+import redSvg from '../img/marker-icon-red.svg';
+export const redIcon = makeColoredMarkerIcon(redSvg, redSvg);
 
-export const copperIcon = makeColoredMarkerIcon('img/marker-icon-copper.svg', 'img/marker-icon-copper.svg');
+import copperSvg from '../img/marker-icon-copper.svg';
+export const copperIcon = makeColoredMarkerIcon(copperSvg, copperSvg);
 
-export const orangeIcon = makeColoredMarkerIcon('img/marker-icon-orange.svg', 'img/marker-icon-orange.svg');
+import orangeSvg from '../img/marker-icon-orange.svg';
+export const orangeIcon = makeColoredMarkerIcon(orangeSvg, copperSvg);
 
 /*
 Green spectrum icons
 */
 
-export const yellowIcon = makeColoredMarkerIcon('img/marker-icon-yellow.svg', 'img/marker-icon-yellow.svg');
+import yellowSvg from '../img/marker-icon-yellow.svg';
+export const yellowIcon = makeColoredMarkerIcon(yellowSvg, yellowSvg);
 
 /**
  * @deprecated Ambiguous color; use yellowIcon instead.
  */
 export const goldIcon = yellowIcon;
 
-export const limeIcon = makeColoredMarkerIcon('img/marker-icon-lime.svg', 'img/marker-icon-lime.svg');
+import limeSvg from '../img/marker-icon-lime.svg';
+export const limeIcon = makeColoredMarkerIcon(limeSvg, limeSvg);
 
-export const greenIcon = makeColoredMarkerIcon('img/marker-icon-green.svg', 'img/marker-icon-green.svg');
+import greenSvg from '../img/marker-icon-green.svg';
+export const greenIcon = makeColoredMarkerIcon(greenSvg, greenSvg);
 
-export const turquoiseIcon = makeColoredMarkerIcon('img/marker-icon-turquoise.svg', 'img/marker-icon-turquoise.svg');
+import turquoiseSvg from '../img/marker-icon-turquoise.svg';
+export const turquoiseIcon = makeColoredMarkerIcon(turquoiseSvg, turquoiseSvg);
 
 /*
 Blue spectrum icons
 */
 
-export const cyanIcon = makeColoredMarkerIcon('img/marker-icon-cyan.svg', 'img/marker-icon-cyan.svg');
+import cyanSvg from '../img/marker-icon-cyan.svg';
+export const cyanIcon = makeColoredMarkerIcon(cyanSvg, cyanSvg);
 
 export const blueIcon = defaultIcon;
 
-export const ultramarineIcon = makeColoredMarkerIcon('img/marker-icon-ultramarine.svg', 'img/marker-icon-ultramarine.svg');
+import ultramarineSvg from '../img/marker-icon-ultramarine.svg';
+export const ultramarineIcon = makeColoredMarkerIcon(ultramarineSvg, ultramarineSvg);
 
-export const royalIcon = makeColoredMarkerIcon('img/marker-icon-royal.svg', 'img/marker-icon-royal.svg');
+import royalSvg from '../img/marker-icon-royal.svg';
+export const royalIcon = makeColoredMarkerIcon(royalSvg, royalSvg);
 
-export const violetIcon = makeColoredMarkerIcon('img/marker-icon-violet.svg', 'img/marker-icon-violet.svg');
+import violetSvg from '../img/marker-icon-violet.svg';
+export const violetIcon = makeColoredMarkerIcon(violetSvg, violetSvg);
 
 /*
 Greyscale icons
 */
 
-export const whiteIcon = makeColoredMarkerIcon('img/marker-icon-white.svg', 'img/marker-icon-white.svg');
+import whiteSvg from '../img/marker-icon-white.svg';
+export const whiteIcon = makeColoredMarkerIcon(whiteSvg, whiteSvg);
 
-export const lightGreyIcon = makeColoredMarkerIcon('img/marker-icon-light-grey.svg', 'img/marker-icon-light-grey.svg');
+import lightGreySvg from '../img/marker-icon-light-grey.svg';
+export const lightGreyIcon = makeColoredMarkerIcon(lightGreySvg, lightGreySvg);
 
-export const greyIcon = makeColoredMarkerIcon('img/marker-icon-grey.svg', 'img/marker-icon-grey.svg');
+import greySvg from '../img/marker-icon-grey.svg';
+export const greyIcon = makeColoredMarkerIcon(greySvg, greySvg);
 
-export const darkGreyIcon = makeColoredMarkerIcon('img/marker-icon-dark-grey.svg', 'img/marker-icon-dark-grey.svg');
+import darkGreySvg from '../img/marker-icon-dark-grey.svg';
+export const darkGreyIcon = makeColoredMarkerIcon(darkGreySvg, darkGreySvg);
 
-export const blackIcon = makeColoredMarkerIcon('img/marker-icon-black.svg', 'img/marker-icon-black.svg');
+import blackSvg from '../img/marker-icon-black.svg';
+export const blackIcon = makeColoredMarkerIcon(blackSvg, blackSvg);
 
 /*
 Util/Data functions

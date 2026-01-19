@@ -7,6 +7,7 @@ import json from "@rollup/plugin-json";
 import typescript from '@rollup/plugin-typescript';
 import commonjs from "@rollup/plugin-commonjs";
 import { dts } from "rollup-plugin-dts";
+import url from "@rollup/plugin-url";
 
 export default [{
     // build the code bundle
@@ -37,6 +38,9 @@ export default [{
 
         // requried to correctly understand Leaflet legacy exporting/class syntax
         commonjs(),
+
+        // required to correctly bundle the svgs
+        url(),
     ]
 }, {
     // build the types bundle
