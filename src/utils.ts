@@ -6,7 +6,7 @@ const popupAnchor = [1, -34] as L.PointTuple;
 const tooltipAnchor = [16, -28] as L.PointTuple;
 const shadowSize = [41, 41] as L.PointTuple;
 
-import iconSvg from '../img/marker-shadow.svg';
+import iconSvg from '../img/marker-icon.svg';
 import shadowSvg from '../img/marker-shadow.svg';
 
 export function makeColoredMarkerIcon(iconUrl: string, iconRetinaUrl: string) {
