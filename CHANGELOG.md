@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Dev (WIP)
 
+## 3.0.1 (2026-01-19)
+
+A bugfix update.
+
 - Fixed missing marker icons when used in frontend frameworks ([#20](https://github.com/Vectorial1024/leaflet-color-markers/issues/20))
 
 ## 3.0.0 (2026-01-18)
