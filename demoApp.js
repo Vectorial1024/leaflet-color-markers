@@ -52,6 +52,7 @@ for (const [key, value] of Object.entries(icons)) {
     // hand compensate for the longitude
     const marker = L.marker([centerLat + deltaY, centerLng + deltaX * 1.6], {icon: value});
     marker.bindTooltip(key);
+    marker.bindPopup(key);
     marker.addTo(map);
 
     progress++;
