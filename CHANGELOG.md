@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Dev (WIP)
 
+- Added code examples for select frontend frameworks ([#19](https://github.com/Vectorial1024/leaflet-color-markers/issues/19))
 - Calibrated the anchor of the markers ([#22](https://github.com/Vectorial1024/leaflet-color-markers/pull/22))
 
 ## 3.0.1 (2026-01-19)
