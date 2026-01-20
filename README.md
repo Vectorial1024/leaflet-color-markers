@@ -73,6 +73,23 @@ return (
 )
 ```
 
+### Angular Example with `@bluehalo/ngx-leaflet`
+
+```javascript
+import { Component } from '@angular/core';
+import { greenIcon } from '@vectorial1024/leaflet-color-markers';
+
+@Component({/* ... */})
+export class AngularLeafletDemoMap {
+    layers = [
+        L.marker([51.505, -0.09], {
+            icon: greenIcon
+        })
+    ];
+}
+
+```
+
 ### Vue 3 Example with `@vue-leaflet/vue-leaflet`
 
 ```vue
