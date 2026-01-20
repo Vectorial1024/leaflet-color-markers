@@ -73,6 +73,20 @@ return (
 )
 ```
 
+### Vue 3 Example with `@vue-leaflet/vue-leaflet`
+
+```vue
+<script setup>
+import { greenIcon } from '@vectorial1024/leaflet-color-markers';
+</script>
+
+<template>
+    <l-map>
+        <l-marker :lat-lng="[51.505, -0.09]" :icon="greenIcon" />
+    </l-map>
+</template>
+```
+
 ### What about `require()`?
 
 **As of `3.0.0`, support for CJS (`require()`) has been removed.** We strongly recommend you migrate to use the standard ESM style (`import`, available since 2018) to handle dependencies.
