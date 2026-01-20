@@ -4,7 +4,7 @@ const iconSize = [26, 41] as L.PointTuple;
 const iconAnchor = [13, 40] as L.PointTuple;
 const popupAnchor = [0, -34] as L.PointTuple;
 const tooltipAnchor = [16, -27] as L.PointTuple;
-const shadowSize = [41, 41] as L.PointTuple;
+const shadowSize = [40, 42] as L.PointTuple;
 
 import iconSvg from '../img/marker-icon.svg';
 import shadowSvg from '../img/marker-shadow.svg';
