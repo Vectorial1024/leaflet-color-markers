@@ -44,15 +44,15 @@ for (const [key, value] of Object.entries(icons)) {
     const deltaX = Math.sin(circleProgress) * coordRadius;
     const deltaY = Math.cos(circleProgress) * coordRadius;
 
+    // create the calibration marker first to be placed at the bottom
+    const bullseye = L.marker([centerLat + deltaY, centerLng + deltaX * 1.6], {icon: calibrationIcon});
+    bullseye.addTo(map);
+
     // create the color marker
     // hand compensate for the longitude
     const marker = L.marker([centerLat + deltaY, centerLng + deltaX * 1.6], {icon: value});
     marker.bindTooltip(key);
     marker.addTo(map);
-
-    // also create the calibration marker
-    const bullseye = L.marker([centerLat + deltaY, centerLng + deltaX * 1.6], {icon: calibrationIcon});
-    bullseye.addTo(map);
 
     progress++;
 }
