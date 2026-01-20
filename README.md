@@ -79,7 +79,9 @@ return (
 import { Component } from '@angular/core';
 import { greenIcon } from '@vectorial1024/leaflet-color-markers';
 
-@Component({/* ... */})
+@Component({
+    imports: [LeafletDirective, LeafletLayersDirective],
+})
 export class AngularLeafletDemoMap {
     layers = [
         L.marker([51.505, -0.09], {
