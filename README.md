@@ -57,6 +57,22 @@ const map = L.map('theMap');
 L.marker([51.5, -0.09], { icon: greenIcon }).addTo(map);
 ```
 
+No extra CSS mess; it just works!
+
+It even works with existing NodeJS frameworks very easily:
+
+### React Example with `react-leaflet`
+
+```javascript
+import { greenIcon } from '@vectorial1024/leaflet-color-markers';
+
+return (
+    <MapContainer>
+        <Marker position={[51.505, -0.09]} icon={greenIcon} />
+    </MapContainer>
+)
+```
+
 ### What about `require()`?
 
 **As of `3.0.0`, support for CJS (`require()`) has been removed.** We strongly recommend you migrate to use the standard ESM style (`import`, available since 2018) to handle dependencies.
