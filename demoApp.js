@@ -29,6 +29,14 @@ import { getAllPresetColoredIcons } from './src/index.js';
 const icons = getAllPresetColoredIcons();
 const iconCount = Object.keys(icons).length;
 
+// also prepare calibration markers for each marker to ensure our pins are anchored correctly
+const calibrationIcon = L.icon({
+    // a small red square
+    iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNCIgaGVpZ2h0PSI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSI0IiBoZWlnaHQ9IjQiIGZpbGw9InJlZCIvPjwvc3ZnPg==',
+    iconSize: [4, 4],
+    iconAnchor: [2, 2],
+});
+
 // draw the circle, clockwise from 12
 let progress = 0;
 for (const [key, value] of Object.entries(icons)) {
@@ -41,6 +49,10 @@ for (const [key, value] of Object.entries(icons)) {
     const marker = L.marker([centerLat + deltaY, centerLng + deltaX * 1.6], {icon: value});
     marker.bindTooltip(key);
     marker.addTo(map);
+
+    // also create the calibration marker
+    const bullseye = L.marker([centerLat + deltaY, centerLng + deltaX * 1.6], {icon: calibrationIcon});
+    bullseye.addTo(map);
 
     progress++;
 }
