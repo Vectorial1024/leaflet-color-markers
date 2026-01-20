@@ -10,7 +10,7 @@ const centerLng = 0;
 const coordRadius = 0.015;
 
 // require modules
-import * as L from 'leaflet/src/Leaflet';
+import * as L from 'leaflet';
 // create map
 const map = L.map('map').setView([centerLat, centerLng], 13);
 
