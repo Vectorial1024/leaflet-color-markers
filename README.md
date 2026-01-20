@@ -57,7 +57,7 @@ const map = L.map('theMap');
 L.marker([51.5, -0.09], { icon: greenIcon }).addTo(map);
 ```
 
-No extra CSS mess; it just works!
+**No extra CSS mess**; it just works!
 
 It even works with existing NodeJS frameworks very easily:
 
