@@ -39,5 +39,10 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-  }
+  },
+  // excluded paths to avoid complaints
+  "exclude": [
+    "./demoApp.ts",
+    "./dist/"
+  ]
 }
