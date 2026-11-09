@@ -1,5 +1,8 @@
 import { makeColoredMarkerIcon, makeColoredMarkerSvgIcon } from './utils.js';
 
+/**
+ * @deprecated Use Leaflet 2 built-in default icon instead.
+ */
 export const defaultIcon = makeColoredMarkerSvgIcon();
 
 /*
@@ -46,6 +49,9 @@ Blue spectrum icons
 import cyanSvg from '../img/marker-icon-cyan.svg';
 export const cyanIcon = makeColoredMarkerIcon(cyanSvg, cyanSvg);
 
+/**
+ * @deprecated Use Leaflet 2 built-in default icon instead.
+ */
 export const blueIcon = defaultIcon;
 
 import ultramarineSvg from '../img/marker-icon-ultramarine.svg';
@@ -81,6 +87,8 @@ Util/Data functions
 */
 
 /**
+ * @deprecated Entire package is deprecated; you should implement a replacement by yourselves.
+ * 
  * Returns an object that represents the collection of preset colored icons provided by this library,
  * manually sorted by their hues starting from pink.
  * 
