@@ -19,6 +19,8 @@ const osmTiles = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const attribution = '© OpenStreetMap contributors';
 
 // Create the basemap and add it to the map
+// Note: some time ago, OSM implemented a general block against unidentified tile requesters.
+// This unfortunately includes us.
 new TileLayer(osmTiles, {
     maxZoom: 18,
     attribution: attribution
