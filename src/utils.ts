@@ -17,6 +17,7 @@ import shadowSvg from '../img/marker-shadow.svg';
  * @returns 
  */
 export function makeColoredMarkerIcon(iconUrl: string, iconRetinaUrl: string) {
+    console.warn("@vectorial1024/leaflet-color-markers is deprecated. Check the `@deprecated` JSDoc for next steps.");
     return new Icon({
         iconUrl: iconUrl,
         iconRetinaUrl: iconRetinaUrl,
@@ -34,6 +35,7 @@ export function makeColoredMarkerIcon(iconUrl: string, iconRetinaUrl: string) {
  * @returns 
  */
 export function makeColoredMarkerSvgIcon() {
+    console.warn("@vectorial1024/leaflet-color-markers is deprecated. Check the `@deprecated` JSDoc for next steps.");
     return new Icon({
         iconUrl: iconSvg,
         // with svg as the icon, no particular need to specify retina url

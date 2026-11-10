@@ -1,10 +1,10 @@
-import { makeColoredMarkerIcon, makeColoredMarkerSvgIcon } from './utils.js';
+import { makeColoredMarkerIcon } from './utils.js';
 import { DefaultIcon } from 'leaflet';
 
 /**
  * @deprecated Use Leaflet 2 built-in default icon instead.
  */
-export const defaultIcon = makeColoredMarkerSvgIcon();
+export const defaultIcon = new DefaultIcon();
 
 /*
 Red spectrum icons
@@ -110,6 +110,7 @@ Util/Data functions
  */
 export function getAllPresetColoredIcons()
 {
+    console.warn("@vectorial1024/leaflet-color-markers is deprecated. Check the `@deprecated` JSDoc for next steps.");
     return {
         pinkIcon: pinkIcon,
         redIcon: redIcon,
