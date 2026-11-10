@@ -34,22 +34,30 @@ export const orangeIcon = new DefaultIcon({color: 'rgb(254 159 9)'});
 Green spectrum icons
 */
 
-import yellowSvg from '../img/marker-icon-yellow.svg';
-export const yellowIcon = makeColoredMarkerIcon(yellowSvg, yellowSvg);
+/**
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(238, 224, 0)'})`.
+ */
+export const yellowIcon = new DefaultIcon({color: 'rgb(238, 224, 0)'});
 
 /**
  * @deprecated Ambiguous color; use yellowIcon instead.
  */
 export const goldIcon = yellowIcon;
 
-import limeSvg from '../img/marker-icon-lime.svg';
-export const limeIcon = makeColoredMarkerIcon(limeSvg, limeSvg);
+/**
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(171, 214, 0)'})`.
+ */
+export const limeIcon = new DefaultIcon({color: 'rgb(171, 214, 0)'});
 
-import greenSvg from '../img/marker-icon-green.svg';
-export const greenIcon = makeColoredMarkerIcon(greenSvg, greenSvg);
+/**
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(3, 162, 0)'})`.
+ */
+export const greenIcon = new DefaultIcon({color: 'rgb(3, 162, 0)'});
 
-import turquoiseSvg from '../img/marker-icon-turquoise.svg';
-export const turquoiseIcon = makeColoredMarkerIcon(turquoiseSvg, turquoiseSvg);
+/**
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(0, 162, 152)'})`.
+ */
+export const turquoiseIcon = new DefaultIcon({color: 'rgb(0, 162, 152)'});
 
 /*
 Blue spectrum icons
