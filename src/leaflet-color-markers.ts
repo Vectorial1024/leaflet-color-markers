@@ -82,19 +82,19 @@ Greyscale icons
 export const whiteIcon = new DefaultIcon({color: 'white'});
 
 /**
- * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(205 205 205)'})`.
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(171 171 171)'})`.
  */
-export const lightGreyIcon = new DefaultIcon({color: 'rgb(205 205 205)'});
+export const lightGreyIcon = new DefaultIcon({color: 'rgb(171 171 171)'});
 
 /**
- * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(142 142 142)'})`
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(108 108 108)'})`
  */
-export const greyIcon = new DefaultIcon({color: 'rgb(142 142 142)'});
+export const greyIcon = new DefaultIcon({color: 'rgb(108 108 108)'});
 
 /**
- * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(78 78 78)'})`
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(44 44 44)'})`
  */
-export const darkGreyIcon = new DefaultIcon({color: 'rgb(78 78 78)'});
+export const darkGreyIcon = new DefaultIcon({color: 'rgb(44 44 44)'});
 
 /**
  * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(0, 0, 0)'})`, aka `{color: 'black'}`.
