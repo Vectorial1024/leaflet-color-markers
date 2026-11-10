@@ -35,9 +35,9 @@ Green spectrum icons
 */
 
 /**
- * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(238, 224, 0)'})`.
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(238 224 0)'})`.
  */
-export const yellowIcon = new DefaultIcon({color: 'rgb(238, 224, 0)'});
+export const yellowIcon = new DefaultIcon({color: 'rgb(238 224 0)'});
 
 /**
  * @deprecated Ambiguous color; use yellowIcon instead.
@@ -45,19 +45,19 @@ export const yellowIcon = new DefaultIcon({color: 'rgb(238, 224, 0)'});
 export const goldIcon = yellowIcon;
 
 /**
- * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(171, 214, 0)'})`.
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(171 214 0)'})`.
  */
-export const limeIcon = new DefaultIcon({color: 'rgb(171, 214, 0)'});
+export const limeIcon = new DefaultIcon({color: 'rgb(171 214 0)'});
 
 /**
- * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(3, 162, 0)'})`.
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(3 162 0)'})`.
  */
-export const greenIcon = new DefaultIcon({color: 'rgb(3, 162, 0)'});
+export const greenIcon = new DefaultIcon({color: 'rgb(3 162 0)'});
 
 /**
- * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(0, 162, 152)'})`.
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(0 162 152)'})`.
  */
-export const turquoiseIcon = new DefaultIcon({color: 'rgb(0, 162, 152)'});
+export const turquoiseIcon = new DefaultIcon({color: 'rgb(0 162 152)'});
 
 /*
 Blue spectrum icons
