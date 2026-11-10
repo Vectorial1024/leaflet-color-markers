@@ -9,6 +9,11 @@
 
 The standard Leaflet marker icon, but in different color variations, for simple use cases.
 
+> [!WARNING]
+> As of Leaflet 2, this package is DEPRECATED, and this repository is ARCHIVED.
+> 
+> You should migrate to use Leaflet 2's `DefaultIcon`. See below for more details.
+
 This is a modernized fork of [patrickp-rthinfo/leaflet-color-markers](https://github.com/patrickp-rthinfo/leaflet-color-markers),
 which is in turn a fork of [pointhi/leaflet-color-markers](https://github.com/pointhi/leaflet-color-markers).
 With this, the first commit to this project can be traced back to late 2013.
@@ -16,6 +21,43 @@ With this, the first commit to this project can be traced back to late 2013.
 Note that the Leaflet marker icon is [originally contributed to the Leaflet project](https://github.com/Leaflet/Leaflet/blob/main/src/images/marker-icon.svg),
 and is not the work of this library.
 The work here is to make that colored marker icon available in some additional colors for easier simple multi-color marker usages.
+
+## Deprecation and Migration
+
+As of Leaflet 2, it is now possible to customize the color of the default marker, which is normally bluish, by specifying a CSS color while defining the icon. (https://github.com/Leaflet/Leaflet/pull/10489)
+
+Example code in Leaflet 2:
+
+```js
+// we assume the map is properly defined and created
+var map = new LeafletMap();
+
+// define the colored marker icon, for efficient reuse
+// 'crimson' is one of the many CSS named colors
+// note that it is also possible to supply a CSS rgb color, e.g. 'rgb(220 20 60)', instead of 'crimson'
+var crimson = new DefaultIcon({color: 'crimson'});
+
+// then, create a crimson-colored marker and put it into the map
+new Marker([0, 0], {icon: crimsonIcon}).addTo(map);
+```
+
+Compared to this package, the Leaflet 2 markers do not have the "luster" on them,
+but can be easily recolored to any of the expressible CSS colors.
+They also have clearer borders compared to this package.
+
+Leaflet 2 also has built-in TypeScript support. (https://github.com/Leaflet/Leaflet/issues/7591)
+
+The benefits of switching over to Leaflet 2 is very significant.
+
+### What about `4.0.0` of this package?
+
+In `4.0.0`, this package is updated to be compatible with Leaflet 2, for seamless migration:
+- The icons now have the Leaflet 2 type `DefaultIcon` for the recoloring
+- The icons are visually similar to the pre-update icons
+- The icons are marked as `@deprecated`
+
+The deprecation message indicates which RGB is visually close to the legacy icons.
+You may perhaps review the CSS preset colors and choose which one is more suitable for your design.
 
 ## Install
 

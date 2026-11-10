@@ -21,7 +21,7 @@ export default [{
     ],
     onwarn(warning, warn) {
         if (warning.code === 'CIRCULAR_DEPENDENCY') {
-            // Leaflet 1 is constructed circularly, this is normal
+            // Leaflet 1 and 2 are both constructed circularly, this is normal
             return;
         }
         warn(warning);

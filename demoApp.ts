@@ -10,16 +10,18 @@ const centerLng = 0;
 const coordRadius = 0.015;
 
 // require modules
-import * as L from 'leaflet';
+import { DefaultIcon, LeafletMap, Marker, TileLayer } from 'leaflet';
 // create map
-const map = L.map('map').setView([centerLat, centerLng], 13);
+const map = new LeafletMap('map').setView([centerLat, centerLng], 13);
 
 // Use OpenStreetMap tiles and attribution
 const osmTiles = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const attribution = '© OpenStreetMap contributors';
 
 // Create the basemap and add it to the map
-L.tileLayer(osmTiles, {
+// Note: some time ago, OSM implemented a general block against unidentified tile requesters.
+// This unfortunately includes us.
+new TileLayer(osmTiles, {
     maxZoom: 18,
     attribution: attribution
 }).addTo(map);
@@ -30,7 +32,7 @@ const icons = getAllPresetColoredIcons();
 const iconCount = Object.keys(icons).length;
 
 // also prepare calibration markers for each marker to ensure our pins are anchored correctly
-const calibrationIcon = L.icon({
+const calibrationIcon = new DefaultIcon({
     // a small red square
     iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNCIgaGVpZ2h0PSI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSI0IiBoZWlnaHQ9IjQiIGZpbGw9InJlZCIvPjwvc3ZnPg==',
     iconSize: [4, 4],
@@ -45,12 +47,12 @@ for (const [key, value] of Object.entries(icons)) {
     const deltaY = Math.cos(circleProgress) * coordRadius;
 
     // create the calibration marker first to be placed at the bottom
-    const bullseye = L.marker([centerLat + deltaY, centerLng + deltaX * 1.6], {icon: calibrationIcon});
+    const bullseye = new Marker([centerLat + deltaY, centerLng + deltaX * 1.6], {icon: calibrationIcon});
     bullseye.addTo(map);
 
     // create the color marker
     // hand compensate for the longitude
-    const marker = L.marker([centerLat + deltaY, centerLng + deltaX * 1.6], {icon: value});
+    const marker = new Marker([centerLat + deltaY, centerLng + deltaX * 1.6], {icon: value});
     marker.bindTooltip(key);
     marker.bindPopup(key);
     marker.addTo(map);
