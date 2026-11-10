@@ -12,7 +12,7 @@ The standard Leaflet marker icon, but in different color variations, for simple 
 > [!WARNING]
 > As of Leaflet 2, this package is DEPRECATED, and this repository is ARCHIVED.
 > 
-> See below for more details and migration steps.
+> You should migrate to use Leaflet 2's `DefaultIcon`. See below for more details.
 
 This is a modernized fork of [patrickp-rthinfo/leaflet-color-markers](https://github.com/patrickp-rthinfo/leaflet-color-markers),
 which is in turn a fork of [pointhi/leaflet-color-markers](https://github.com/pointhi/leaflet-color-markers).
