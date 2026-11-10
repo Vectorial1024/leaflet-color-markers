@@ -43,6 +43,8 @@ new Marker([0, 0], {icon: crimsonIcon}).addTo(map);
 
 Compared to this package, the Leaflet 2 markers do not have the "luster" on them,
 but can be easily recolored to any of the expressible CSS colors.
+They also have clearer borders compared to this package.
+
 Leaflet 2 also has built-in TypeScript support. (https://github.com/Leaflet/Leaflet/issues/7591)
 
 The benefits of switching over to Leaflet 2 is very significant.
