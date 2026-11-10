@@ -1,4 +1,5 @@
 import { makeColoredMarkerIcon, makeColoredMarkerSvgIcon } from './utils.js';
+import { DefaultIcon } from 'leaflet';
 
 /**
  * @deprecated Use Leaflet 2 built-in default icon instead.
@@ -67,20 +68,30 @@ export const violetIcon = makeColoredMarkerIcon(violetSvg, violetSvg);
 Greyscale icons
 */
 
-import whiteSvg from '../img/marker-icon-white.svg';
-export const whiteIcon = makeColoredMarkerIcon(whiteSvg, whiteSvg);
+/**
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(255 255 255)'})`, aka `{color: 'white'}`.
+ */
+export const whiteIcon = new DefaultIcon({color: 'white'});
 
-import lightGreySvg from '../img/marker-icon-light-grey.svg';
-export const lightGreyIcon = makeColoredMarkerIcon(lightGreySvg, lightGreySvg);
+/**
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(205 205 205)'})`.
+ */
+export const lightGreyIcon = new DefaultIcon({color: 'rgb(205 205 205)'});
 
-import greySvg from '../img/marker-icon-grey.svg';
-export const greyIcon = makeColoredMarkerIcon(greySvg, greySvg);
+/**
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(142 142 142)'})`
+ */
+export const greyIcon = new DefaultIcon({color: 'rgb(142 142 142)'});
 
-import darkGreySvg from '../img/marker-icon-dark-grey.svg';
-export const darkGreyIcon = makeColoredMarkerIcon(darkGreySvg, darkGreySvg);
+/**
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(78 78 78)'})`
+ */
+export const darkGreyIcon = new DefaultIcon({color: 'rgb(78 78 78)'});
 
-import blackSvg from '../img/marker-icon-black.svg';
-export const blackIcon = makeColoredMarkerIcon(blackSvg, blackSvg);
+/**
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(0, 0, 0)'})`, aka `{color: 'black'}`.
+ */
+export const blackIcon = new DefaultIcon({color: 'black'});
 
 /*
 Util/Data functions
