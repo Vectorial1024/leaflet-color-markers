@@ -11,7 +11,7 @@ Red spectrum icons
 */
 
 /**
- * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(255 153 198)'})`.
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(254 85 145)'})`.
  */
 export const pinkIcon = new DefaultIcon({color: 'rgb(254 85 145)'});
 
@@ -21,12 +21,12 @@ export const pinkIcon = new DefaultIcon({color: 'rgb(254 85 145)'});
 export const redIcon = new DefaultIcon({color: 'rgb(214 0 5)'});
 
 /**
- * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(208 125 75)'})`.
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(197 102 18)'})`.
  */
 export const copperIcon = new DefaultIcon({color: 'rgb(197 102 18)'});
 
 /**
- * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(254 169 77)'})`.
+ * @deprecated Use Leaflet 2 `new DefaultIcon({color: 'rgb(254 159 9)'})`.
  */
 export const orangeIcon = new DefaultIcon({color: 'rgb(254 159 9)'});
 
